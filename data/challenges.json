@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "id": "fullstack",
+      "name": "💻 Full Stack",
+      "description": "End-to-end web development with modern frameworks",
+      "totalDays": 50,
+      "color": "#45B7D1"
+    },
+    {
+      "id": "backend",
+      "name": "⚙️ Backend",
+      "description": "Server, APIs & database development",
+      "totalDays": 50,
+      "color": "#4ECDC4"
+    },
+    {
+      "id": "ai",
+      "name": "🤖 AI & ML",
+      "description": "Artificial Intelligence & Machine Learning",
+      "totalDays": 50,
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "cybersecurity",
+      "name": "🔒 Cybersecurity",
+      "description": "Security, encryption & ethical hacking",
+      "totalDays": 50,
+      "color": "#A78BFA"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "day": 1,
+  "title": "Introduction to Machine Learning Concepts",
+  "description": "Understand the basic concepts of machine learning and set up your first Python environment for AI development.",
+  "difficulty": "beginner",
+  "category": "ai",
+  "subcategory": "ml",
+  "objectives": [
+    "Understand what machine learning is",
+    "Set up Python environment with necessary libraries",
+    "Learn about supervised vs unsupervised learning",
+    "Install and import basic ML libraries"
+  ],
+  "codeExample": "# Import essential libraries\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom sklearn.model_selection import train_test_split\n\nprint(\"ML Environment Setup Complete!\")\nprint(\"NumPy version:\", np.__version__)\nprint(\"Pandas version:\", pd.__version__)",
+  "explanation": "Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention.",
+  "resources": [
+    "https://scikit-learn.org/stable/",
+    "https://numpy.org/",
+    "https://pandas.pydata.org/"
+  ],
+  "tips": [
+    "Start with understanding the problem before choosing algorithms",
+    "Always split your data into training and testing sets",
+    "Practice with real datasets from Kaggle"
+  ]
+}

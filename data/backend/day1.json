@@ -1,0 +1,25 @@
+{
+  "day": 1,
+  "title": "Create a Simple Express.js Server",
+  "description": "Set up a basic Express.js server that responds to HTTP requests and understand the fundamentals of backend development.",
+  "difficulty": "beginner",
+  "category": "backend",
+  "subcategory": "expressjs",
+  "objectives": [
+    "Initialize a new Node.js project",
+    "Install and set up Express.js",
+    "Create a basic server that listens on port 3000",
+    "Add routes for GET requests"
+  ],
+  "codeExample": "const express = require('express');\nconst app = express();\nconst PORT = 3000;\n\n// Basic route\napp.get('/', (req, res) => {\n  res.json({ message: 'Hello from Express Server!' });\n});\n\n// Start server\napp.listen(PORT, () => {\n  console.log(`Server running on http://localhost:${PORT}`);\n});",
+  "explanation": "Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. This challenge helps you understand how servers handle HTTP requests and send responses.",
+  "resources": [
+    "https://expressjs.com/",
+    "https://nodejs.org/en/docs/"
+  ],
+  "tips": [
+    "Use nodemon for automatic server restarts during development",
+    "Always handle errors properly",
+    "Start with simple routes before adding complexity"
+  ]
+}
